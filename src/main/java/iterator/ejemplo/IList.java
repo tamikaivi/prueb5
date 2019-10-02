@@ -1,5 +1,5 @@
 package iterator.ejemplo;
 
 public interface IList {
-    public Iterator iterator();
+    public IteratorList3 iterator();
 }

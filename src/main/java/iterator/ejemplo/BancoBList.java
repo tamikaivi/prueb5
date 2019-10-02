@@ -19,7 +19,7 @@ public class BancoBList implements IList {
     }
 
     @Override
-    public IteratorList2 iterator() {
+    public IteratorList3 iterator() {
         return new IteratorList2(this.clientes);
     }
 }
