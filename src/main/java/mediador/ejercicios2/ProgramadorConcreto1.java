@@ -13,19 +13,19 @@ public class ProgramadorConcreto1 extends Programadores {
 
     @Override
     public void send(String msg, Programadores receptor) {
-        mediator.send(msg, this, receptor );
+        mediator.send(msg, receptor );
     }
 
     @Override
     public void sendTodos(String msg) {
+
         mediator.sendTodos(msg, this);
     }
 
-
     @Override
-    public void messageRecived(String msg, HashMap<Integer, Programadores> programadoresHashMap, Programadores receptor) {
-        List<Integer> indexes = new ArrayList<Integer>(programadoresHashMap.keySet());
-        System.out.println("Programador "+indexes.indexOf(programadoresHashMap)+"recibe message : "+msg);
+    public void messageRecived(String msg) {
+        System.out.println("Programador 1 recive mensaje: "+msg);
     }
+
 
 }

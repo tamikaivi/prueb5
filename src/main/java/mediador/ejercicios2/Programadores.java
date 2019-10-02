@@ -10,5 +10,5 @@ public abstract class Programadores {
     }
     public  abstract  void  send(String msg, Programadores receptor);
     public  abstract  void  sendTodos(String msg);
-    public abstract void messageRecived(String msg, HashMap<Integer, Programadores> programadoresHashMap, Programadores receptor);
+    public  abstract  void  messageRecived(String msg);
 }
