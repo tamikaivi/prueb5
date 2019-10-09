@@ -2,16 +2,327 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140bd0b4-e397-46a6-94f0-cab8845630e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/AbstractExpresion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoComo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExprePara.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpreQuiero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TareaMementoConMap/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TareaMementoConMap/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TareaMementoConMap/ConcreteObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TareaMementoConMap/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TareaMementoConMap/Originator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/Cual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/Base1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/Base2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/Base3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/Base4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/Creador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/CreadorConcreto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/CreadorConcreto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/IProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/ProductoConcreto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/basic/ProductoConcreto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/Chrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/ClienteBrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/Creador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/CreadorConcreto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/CreadorConcreto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/CreadorConcreto3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/FireFox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/IBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejemplo/IE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Computadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Creador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/CreadorConcreto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/CreadorConcreto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Cuaderno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Deportivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/IKit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/KitColegial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/KitEscolar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Libros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Factory/ejercicios/Mochila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/Hhj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/AbstractExpresion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/TerminalExpressionA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/TerminalExpressionAs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/TerminalExpressionE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/TerminalExpressionI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/TerminalExpressionO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/basic/TerminalExpressionU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/AbstractExpresion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/TerminalExpressionI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/TerminalExpressionIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/TerminalExpressionIX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/TerminalExpressionV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejemplo/TerminalExpressionX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/AbstractExpresion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/TerminalExpoComo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/TerminalExpoLoQueSea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/TerminalExprePara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interpreter/ejercicios2/TerminalExpreQuiero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/FactoryProduct$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/FactoryProduct$numType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/FactoryProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/FactoryProduct2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/IProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/ProductoConcreto1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/ProductoConcreto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/ProductoConcreto3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/BASIC/ProductoConcreto4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/JA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/Browser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/Chrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/ClienteBrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/FactoryBrowser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/FactoryBrowser$browType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/FactoryBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/FireFox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejemploBrowser/IE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/Estudiante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/FactoryMaterias$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/FactoryMaterias$browType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/FactoryMaterias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/Historia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/IMaterias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/Ingles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/Lenguaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/abstractFactory/ejercicios/Matematicas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/Adssdfg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/basic/ConcretePrototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/basic/IPrototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/basic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/basic/NoPrototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/ejemplo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/ejemplo/Guerrero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/ejemplo/IPersonaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/ejercicios/Docente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/ejercicios/IContrato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basic/ejercicios/Registrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/basic/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/basic/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/basic/ProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/basic/ProductConcreteBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/basic/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/BuilderComputadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/Computadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/ComputadoraI3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/ComputadoraI5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/ComputadoraI7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejemplo/Ensamblador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejercicios/BuilderPizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejercicios/Cocinero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejercicios/Estudiante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejercicios/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejercicios/PizzaCarnivora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/ejercicios/PizzaHawuaiana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder/kmcd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/IList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/IteradorList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/IteratorList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/List1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/iterator/basic/List2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Cual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/Base1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/Base2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/Base3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/Base4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/Creador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/CreadorConcreto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/CreadorConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/IProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/ProductoConcreto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/basic/ProductoConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/Chrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/ClienteBrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/Creador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/CreadorConcreto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/CreadorConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/CreadorConcreto3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/FireFox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/IBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejemplo/IE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Computadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Creador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/CreadorConcreto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/CreadorConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Cuaderno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Deportivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/IKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/KitColegial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/KitEscolar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Libros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ejercicios/Mochila.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/Hhj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/AbstractExpresion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/TerminalExpressionA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/TerminalExpressionAs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/TerminalExpressionE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/TerminalExpressionI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/TerminalExpressionO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/basic/TerminalExpressionU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/AbstractExpresion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/TerminalExpressionI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/TerminalExpressionIV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/TerminalExpressionIX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/TerminalExpressionV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejemplo/TerminalExpressionX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/AbstractExpresion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoComo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExprePara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpreQuiero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/FactoryProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/FactoryProduct2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/IProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/ProductoConcreto1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/ProductoConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/ProductoConcreto3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/BASIC/ProductoConcreto4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/JA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejemploBrowser/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejemploBrowser/Chrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejemploBrowser/ClienteBrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejemploBrowser/FactoryBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejemploBrowser/FireFox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejemploBrowser/IE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/FactoryMaterias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/Historia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/IMaterias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/Ingles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/Lenguaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abstractFactory/ejercicios/Matematicas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/Adssdfg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/basic/ConcretePrototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/basic/IPrototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/basic/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/basic/NoPrototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/ejemplo/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/ejemplo/Guerrero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/ejemplo/IPersonaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/ejercicios/Docente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/ejercicios/IContrato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/ejercicios/Registrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/basic/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/basic/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/basic/ProductBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/basic/ProductConcreteBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/basic/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/BuilderComputadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/Computadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/ComputadoraI3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/ComputadoraI5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/ComputadoraI7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejemplo/Ensamblador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejercicios/BuilderPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejercicios/Cocinero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejercicios/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejercicios/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejercicios/PizzaCarnivora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/ejercicios/PizzaHawuaiana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/kmcd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/Kfghj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/IList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/IteradorList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/IteratorList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/List1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/basic/List2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/BancoAList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/BancoBList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/BancoCList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/IList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/IteradorList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/IteratorList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejemplo/IteratorList3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/CuartaEmpresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/Empleados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteradorList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteratorList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteratorList3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteratorList4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/PrimeraEmpresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/SegundaEmpresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/ejercicios2/TerceraEmpresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/Aghjk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/basic/Cient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/basic/Colleague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/basic/ConcreateMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/basic/ConcreteColleague1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/basic/ConcreteColleague2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/basic/Mediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/Cient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/ITorre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/TorreGeneral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/Vuelo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/VueloConcreto1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/VueloConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/VueloConcreto3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejemplo/VueloConcreto4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/Comunicacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ISala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/Programadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mediador/ejercicios2/SalaGeneral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Dfgh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/basic/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/basic/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/basic/Singleton2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/basic/Singleton3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Reloj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ejercicios/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ejercicios/Pagar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/ejercicios/Ventanilla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/example/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/example/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/example/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/example/Robot.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,55 +346,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Context.java">
+        <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/ISala.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/Originator.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/SegundaEmpresa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Persona.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Reloj.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/CareTaker.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Cliente.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -92,38 +374,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpreQuiero.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/Memento.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/ConcreteObject.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExpreQuiero.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Parser.java">
+        <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
               <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExprePara.java">
+        <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExprePara.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
@@ -166,11 +454,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bsic2ConMapa/ConcreteObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TareaMementoConMap/Client.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="608" />
     <option name="width" value="731" />
     <option name="height" value="735" />
   </component>
@@ -180,8 +470,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,16 +503,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="ejemplo3" type="462c0819:PsiDirectoryNode" />
+              <item name="TareaMementoConMap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +515,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -247,8 +534,8 @@
       <recent name="mediador.ejercicios2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vloza\IdeaProjects\Prueba\src\main\java\Interpreter\ejercicios2" />
       <recent name="C:\Users\vloza\IdeaProjects\Prueba\src\main\java" />
+      <recent name="C:\Users\vloza\IdeaProjects\Prueba\src\main\java\Interpreter\ejercicios2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,8 +550,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iterator.ejercicios2.Client" />
+      <module name="Prueba.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iterator.ejercicios2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iterator.basic.Client" />
       <module name="Prueba.main" />
       <extension name="coverage">
@@ -277,7 +577,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interpreter.ejercicios2.Client" />
       <module name="Prueba.main" />
       <extension name="coverage">
@@ -291,11 +591,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterator.ejercicios2.Client" />
+      <option name="MAIN_CLASS_NAME" value="TareaMementoConMap.Client" />
       <module name="Prueba.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterator.ejercicios2.*" />
+          <option name="PATTERN" value="TareaMementoConMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,6 +618,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
@@ -337,17 +638,20 @@
       <updated>1569952774003</updated>
       <workItem from="1569952777743" duration="816000" />
       <workItem from="1569954983755" duration="2701000" />
-      <workItem from="1569976472927" duration="15994000" />
+      <workItem from="1569976472927" duration="16385000" />
+      <workItem from="1570016907226" duration="1321000" />
+      <workItem from="1570411744298" duration="751000" />
+      <workItem from="1570656806019" duration="559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19511000" />
+    <option name="totallyTimeSpent" value="22533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="731" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39791358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -356,7 +660,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33388704" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33387887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,77 +687,35 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejemplo/TorreGeneral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejemplo/Vuelo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejemplo/VueloConcreto1.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/basic/ConcreateMediator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejemplo/VueloConcreto4.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejemplo/Cient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/basic/ConcreteColleague2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/basic/ConcreateMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejemplo/Cient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejemplo/ITorre.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejemplo/ITorre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ISala.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/Programadores.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/Programadores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/SalaGeneral.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/SalaGeneral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
@@ -467,7 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto1.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/ProgramadorConcreto1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -480,42 +742,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto2.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/ProgramadorConcreto2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto3.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/ProgramadorConcreto3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/ProgramadorConcreto4.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/ProgramadorConcreto4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mediador/ejercicios2/Comunicacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/Empleados.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/Empleados.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteratorList4.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/IteratorList4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
@@ -529,105 +784,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteradorList1.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/IteradorList1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/TerceraEmpresa.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/TerceraEmpresa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteratorList3.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/IteratorList3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IteratorList2.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/IteratorList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/basic/List1.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/basic/List1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/basic/List2.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/basic/List2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejemplo/IteratorList2.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejemplo/IteratorList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejemplo/BancoCList.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejemplo/BancoCList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/basic/IList.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/basic/IList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/basic/IteradorList1.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/basic/IteradorList1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/basic/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/basic/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/basic/Client.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/basic/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/IList.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/IList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/CuartaEmpresa.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/CuartaEmpresa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
@@ -637,7 +892,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/Client.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
@@ -647,21 +902,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejemplo/BancoBList.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejemplo/BancoBList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejemplo/BancoAList.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejemplo/BancoAList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/PrimeraEmpresa.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/PrimeraEmpresa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -671,101 +926,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpressionV.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpressionX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/AbstractExpresion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpressionV.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpressionX.java" />
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/AbstractExpresion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoComo.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExpoComo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExprePara.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpreQuiero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Context.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/ejercicios2/Client.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/ejercicios2/SegundaEmpresa.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/iterator/ejercicios2/SegundaEmpresa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Persona.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/singleton/ejemplo3/Persona.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Reloj.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/singleton/ejemplo3/Reloj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/ejemplo3/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/singleton/ejemplo3/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/Comunicacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExpreQuiero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExpoLoQueSea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/Interpreter/ejercicios2/TerminalExprePara.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EsTareaMalaPeroAlgoSiFuncina/src/main/java/mediador/ejercicios2/ISala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/Originator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/Memento.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/ConcreteObject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TareaMementoConMap/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
