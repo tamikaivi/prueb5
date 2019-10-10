@@ -7,11 +7,11 @@ public class CareTaker {
     //private ArrayList<Memento> savedStates = new ArrayList<Memento>();
     private Map<String, Memento> mapaSaveedStates = new HashMap<>();
 
-    public void addMemento(String k,Memento m) {
+    public void addDataBase(String k, Memento m) {
         mapaSaveedStates.put(k,m);
     }
 
-    public Memento getMemento(String index) {
+    public Memento getDataBase(String index) {
         return mapaSaveedStates.get(index);
     }
 }
